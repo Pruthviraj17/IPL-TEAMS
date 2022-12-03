@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mi10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM MI"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chris lynn"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="lynn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rohit sharma"
+        android:fontFamily="sans-serif-black"
+        android:onClick="sharma"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="suryakumar yadav"
+        android:fontFamily="sans-serif-black"
+        android:onClick="yadav1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hardik pandya"
+        android:fontFamily="sans-serif-black"
+        android:onClick="pandya"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kieron pollard"
+        android:fontFamily="sans-serif-black"
+        android:onClick="pollard"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="krunal pandya"
+        android:fontFamily="sans-serif-black"
+        android:onClick="pandya1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ishan kishan"
+        android:fontFamily="sans-serif-black"
+        android:onClick="kishan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quinton de kock"
+        android:fontFamily="sans-serif-black"
+        android:onClick="kock"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jasprit bumrah"
+        android:fontFamily="sans-serif-black"
+        android:onClick="bumrah"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rahul chahar"
+        android:fontFamily="sans-serif-black"
+        android:onClick="chahar1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="trent boult"
+        android:fontFamily="sans-serif-black"
+        android:onClick="boult"
+        />
+
+
+</LinearLayout>

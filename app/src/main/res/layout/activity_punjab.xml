@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pbks10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM PBKS"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chris gayle"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="gayle"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="david malan"
+        android:fontFamily="sans-serif-black"
+        android:onClick="malan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mandeep singh"
+        android:fontFamily="sans-serif-black"
+        android:onClick="singh"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mayank agarwal"
+        android:fontFamily="sans-serif-black"
+        android:onClick="agarwal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sarfaraz khan"
+        android:fontFamily="sans-serif-black"
+        android:onClick="khan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deepak hooda"
+        android:fontFamily="sans-serif-black"
+        android:onClick="hooda"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fabian allen"
+        android:fontFamily="sans-serif-black"
+        android:onClick="allen"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KL rahul"
+        android:fontFamily="sans-serif-black"
+        android:onClick="rahul"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chris jordan"
+        android:fontFamily="sans-serif-black"
+        android:onClick="jordan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mohammed shami"
+        android:fontFamily="sans-serif-black"
+        android:onClick="shami"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="moises henriques"
+        android:fontFamily="sans-serif-black"
+        android:onClick="henr"
+        />
+
+
+</LinearLayout>

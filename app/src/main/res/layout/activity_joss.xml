@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ambati">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Profile"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:layout_width="249dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/jbr1" />
+
+    <ImageView
+        android:layout_width="317dp"
+        android:layout_height="343dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/jbr2" />
+
+</FrameLayout>

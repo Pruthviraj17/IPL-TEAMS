@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kkr10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM KKR"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FBFAFB"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eoin morgan"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="morgan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nitish rana"
+        android:fontFamily="sans-serif-black"
+        android:onClick="rana"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rahul tripathi"
+        android:fontFamily="sans-serif-black"
+        android:onClick="trip"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shubman gill"
+        android:fontFamily="sans-serif-black"
+        android:onClick="gill"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="andre rusell"
+        android:fontFamily="sans-serif-black"
+        android:onClick="rusell"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ben cutting"
+        android:fontFamily="sans-serif-black"
+        android:onClick="cutting"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sunil narine"
+        android:fontFamily="sans-serif-black"
+        android:onClick="narine"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dinesh karthik"
+        android:fontFamily="sans-serif-black"
+        android:onClick="karthik"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kuldeep yadav"
+        android:fontFamily="sans-serif-black"
+        android:onClick="yadav"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pat cummins"
+        android:fontFamily="sans-serif-black"
+        android:onClick="cummins"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pawan negi"
+        android:fontFamily="sans-serif-black"
+        android:onClick="negi"
+        />
+
+
+</LinearLayout>

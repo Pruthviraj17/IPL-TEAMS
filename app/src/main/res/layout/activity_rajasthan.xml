@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rr10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM RR"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="david miller"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="miller"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manan vohra"
+        android:fontFamily="sans-serif-black"
+        android:onClick="vohra"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="riyan parag"
+        android:fontFamily="sans-serif-black"
+        android:onClick="parag"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chris morris"
+        android:fontFamily="sans-serif-black"
+        android:onClick="morris"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rahul tewatia"
+        android:fontFamily="sans-serif-black"
+        android:onClick="tewatia"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shivam dube"
+        android:fontFamily="sans-serif-black"
+        android:onClick="dube"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shreyash gopal"
+        android:fontFamily="sans-serif-black"
+        android:onClick="gopal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="joss buttler"
+        android:fontFamily="sans-serif-black"
+        android:onClick="buttler"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sanju samson"
+        android:fontFamily="sans-serif-black"
+        android:onClick="samson"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jaydev unadkat"
+        android:fontFamily="sans-serif-black"
+        android:onClick="unadkat"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mustafizur rahman"
+        android:fontFamily="sans-serif-black"
+        android:onClick="rahman"
+        />
+
+
+</LinearLayout>

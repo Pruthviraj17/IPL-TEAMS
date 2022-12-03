@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/srh10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM SRH"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="david warner"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="warner"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jason roy"
+        android:fontFamily="sans-serif-black"
+        android:onClick="roy"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kane williamson"
+        android:fontFamily="sans-serif-black"
+        android:onClick="william"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kedar jadhav"
+        android:fontFamily="sans-serif-black"
+        android:onClick="jadhav"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manish pandey"
+        android:fontFamily="sans-serif-black"
+        android:onClick="pandey"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="priyam garg"
+        android:fontFamily="sans-serif-black"
+        android:onClick="garg"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jason holder"
+        android:fontFamily="sans-serif-black"
+        android:onClick="holder"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vijay shankar"
+        android:fontFamily="sans-serif-black"
+        android:onClick="shankar"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rashid khan"
+        android:fontFamily="sans-serif-black"
+        android:onClick="khan1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jonny bairstow"
+        android:fontFamily="sans-serif-black"
+        android:onClick="bairstow"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wriddhiman saha"
+        android:fontFamily="sans-serif-black"
+        android:onClick="saha"
+        />
+
+
+</LinearLayout>

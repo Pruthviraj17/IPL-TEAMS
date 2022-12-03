@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cw"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM CSK"
+        android:layout_marginLeft="90dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambati Rayudu"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="ab1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MS Dhoni"
+        android:fontFamily="sans-serif-black"
+        android:onClick="ms"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faf du plessis"
+        android:fontFamily="sans-serif-black"
+        android:onClick="faf"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruturaj Gaikwad"
+        android:fontFamily="sans-serif-black"
+        android:onClick="rutu"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suresh Raina"
+        android:fontFamily="sans-serif-black"
+        android:onClick="suru"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dwayne bravo"
+        android:fontFamily="sans-serif-black"
+        android:onClick="dwayne"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moeen ali"
+        android:fontFamily="sans-serif-black"
+        android:onClick="ali"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ravindra jadeja"
+        android:fontFamily="sans-serif-black"
+        android:onClick="jadeja"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sam curran"
+        android:fontFamily="sans-serif-black"
+        android:onClick="curran"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shardhul thakur"
+        android:fontFamily="sans-serif-black"
+        android:onClick="thakur"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deepak chahar"
+        android:fontFamily="sans-serif-black"
+        android:onClick="chaharde"
+        />
+
+</LinearLayout>

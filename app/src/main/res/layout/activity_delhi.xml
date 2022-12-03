@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dc10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM DC"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ajinkya rahane"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="rahane"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prithvi shaw"
+        android:fontFamily="sans-serif-black"
+        android:onClick="shaw"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shikhar dhawan"
+        android:fontFamily="sans-serif-black"
+        android:onClick="dhawan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shimron hetmyer"
+        android:fontFamily="sans-serif-black"
+        android:onClick="hetmyer"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="axar patel"
+        android:fontFamily="sans-serif-black"
+        android:onClick="patel"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chris woakes"
+        android:fontFamily="sans-serif-black"
+        android:onClick="woakes"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="marcus stoinis"
+        android:fontFamily="sans-serif-black"
+        android:onClick="stoinis"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rishabh pant"
+        android:fontFamily="sans-serif-black"
+        android:onClick="pant"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sam billings"
+        android:fontFamily="sans-serif-black"
+        android:onClick="billings"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amit mishra"
+        android:fontFamily="sans-serif-black"
+        android:onClick="mishra"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="anrich nortje"
+        android:fontFamily="sans-serif-black"
+        android:onClick="nort"
+        />
+
+
+</LinearLayout>

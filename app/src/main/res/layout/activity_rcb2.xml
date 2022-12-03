@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rcb10"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM RCB"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="devdutt padikkal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="padikkal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="virat kohli"
+        android:fontFamily="sans-serif-black"
+        android:onClick="vk"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dan christian"
+        android:fontFamily="sans-serif-black"
+        android:onClick="dan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="daniel sams"
+        android:fontFamily="sans-serif-black"
+        android:onClick="sams"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="glenn maxwell"
+        android:fontFamily="sans-serif-black"
+        android:onClick="glenn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="washington sundar"
+        android:fontFamily="sans-serif-black"
+        android:onClick="sundar"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ab de villiers"
+        android:fontFamily="sans-serif-black"
+        android:onClick="abd"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="harshal patel"
+        android:fontFamily="sans-serif-black"
+        android:onClick="harsh"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mohammed siraj"
+        android:fontFamily="sans-serif-black"
+        android:onClick="siraj"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="navdeep saini"
+        android:fontFamily="sans-serif-black"
+        android:onClick="saini"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yuzvendra chahal"
+        android:fontFamily="sans-serif-black"
+        android:onClick="chahal"
+        />
+
+
+</LinearLayout>
